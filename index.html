@@ -23,6 +23,7 @@
   </head>
 
   <body>
+      <!--linked the time/date here-->
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
@@ -32,58 +33,61 @@
       <!-- Timeblocks go here -->
       <!-- link 9am to the row/timeblock styling on CSS sheet-->
       <!--lined the "hour" "description" stylings-->
-      <div id="9am" class="row time-block">
+      <div id="hour9" id="9am" class="row time-block">
+            
+            <!--had to combine class tags-->
             <!--create a home for the time to be displayed-->
-            <div class="col-md-1" class="hour">9:00am</div>
+            <div class="col-md-1 hour">9:00am</div>
             <!--create a home for info to be entered/displayed-->
-            <textarea class="col-md-10" class="description"></textarea>
+            <textarea class="col-md-10 description"></textarea>
             <!--create a button to save/submit-->
-            <button class="saveBtn" class="col-md-1" class="btn btn-primary">Save</button>
+            <button class="saveBtn col-md-1" class="btn btn-primary"><i class="far fa-calendar-check"></i></button>
       </div>
       <!--copy/paste for each hour of the day-->
-      <div id="10am" class="row time-block">
-            <div class="col-md-1" class="hour">10:00am</div>
-            <textarea class="col-md-10" class="description"></textarea>
-            <button class="saveBtn" class="col-md-1" class="btn btn-primary">Save</button>
+      <div id="hour10" class="row time-block">
+            <div class="col-md-1 hour">10:00am</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="saveBtn col-md-1" class="btn btn-primary"><i class="far fa-calendar-check"></i></button>
       </div>
-      <div id="11am" class="row time-block">
-            <div class="col-md-1" class="hour">11:00am</div>
-            <textarea class="col-md-10" class="description"></textarea>
-            <button class="saveBtn" class="col-md-1" class="btn btn-primary">Save</button>
+      <div id="hour11" class="row time-block">
+            <div class="col-md-1 hour">11:00am</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="saveBtn col-md-1" class="btn btn-primary"><i class="far fa-calendar-check"></i></button>
         </div>
-        <div id="12pm" class="row time-block">
-            <div class="col-md-1" class="hour">12:00pm</div>
-            <textarea class="col-md-10" class="description"></textarea>
-            <button class="saveBtn" class="col-md-1" class="btn btn-primary">Save</button>
+        <div id="hour12" class="row time-block">
+            <div class="col-md-1 hour">12:00pm</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="saveBtn col-md-1" class="btn btn-primary"><i class="far fa-calendar-check"></i></button>
         </div>
-        <div id="1pm" class="row time-block">
-            <div class="col-md-1" class="hour">1:00pm</div>
-            <textarea class="col-md-10" class="description"></textarea>
-            <button class="saveBtn" class="col-md-1" class="btn btn-primary">Save</button>
+        <div id="hour13" class="row time-block">
+            <div class="col-md-1 hour">1:00pm</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="saveBtn col-md-1" class="btn btn-primary"><i class="far fa-calendar-check"></i></button>
         </div>
-        <div id="2pm" class="row time-block">
-            <div class="col-md-1" class="hour">2:00pm</div>
-            <textarea class="col-md-10" class="description"></textarea>
-            <button class="saveBtn" class="col-md-1" class="btn btn-primary">Save</button>
+        <div id="hour14" class="row time-block">
+            <div class="col-md-1 hour">2:00pm</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="saveBtn col-md-1" class="btn btn-primary"><i class="far fa-calendar-check"></i></button>
         </div>
-        <div id="3pm" class="row time-block">
-            <div class="col-md-1" class="hour">3:00pm</div>
-            <textarea class="col-md-10" class="description"></textarea>
-            <button class="saveBtn" class="col-md-1" class="btn btn-primary">Save</button>
+        <div id="hour15" class="row time-block">
+            <div class="col-md-1 hour">3:00pm</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="saveBtn col-md-1" class="btn btn-primary"><i class="far fa-calendar-check"></i></button>
         </div>
-        <div id="4pm" class="row time-block">
-            <div class="col-md-1" class="hour">4:00pm</div>
-            <textarea class="col-md-10" class="description"></textarea>
-            <button class="saveBtn" class="col-md-1" class="btn btn-primary">Save</button>
+        <div id="hour16" class="row time-block">
+            <div class="col-md-1 hour">4:00pm</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="saveBtn col-md-1" class="btn btn-primary"><i class="far fa-calendar-check"></i></button>
         </div>
-        <div id="5pm" class="row time-block">
-            <div class="col-md-1" class="hour">5:00pm</div>
-            <textarea class="col-md-10" class="description"></textarea>
-            <button class="saveBtn" class="col-md-1" class="btn btn-primary">Save</button>
+        <div id="hour17" class="row time-block">
+            <div class="col-md-1 hour">5:00pm</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="saveBtn col-md-1" class="btn btn-primary"><i class="far fa-calendar-check"></i></button>
         </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
 </html>
