@@ -1,13 +1,24 @@
 I added README.md file to repository 
 
 HTML:
-
+    Created containers for each hour
+    linked stylesheet to those containers
+    created an area for data to be displayed once saved/entered
+    created a button to save/submit
+    copied/pasted to build out the page with no js support just yet
+    added an icon to the calendar
 
 CSS:
-
+    made a list of tags, will link to html as I go
 
 JS:
-
+    added a way to track the current day
+    added homes for each hour
+    added homes for each hour/description linked to html
+    created a loop to log/locally store data
+    created a link to display data in the right hour block
+    made a way to have data load in each home
+    restart the process each time the page is loaded
 
 Pseudo:
 
@@ -19,7 +30,7 @@ JS - I will have to have the current day as the first function
     I need to load any saved data to display
     Create a function to tack the current hour and display accordingly (past present future)
     - create instructions to display
-    
+
 
 
 
