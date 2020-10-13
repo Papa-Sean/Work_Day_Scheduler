@@ -1,3 +1,28 @@
+I added README.md file to repository 
+
+HTML:
+
+
+CSS:
+
+
+JS:
+
+
+Pseudo:
+
+Create container for 9:00, 10:00... - ... 5:00pm
+Id CSS tags and assign to HTML and JS
+Create text area in each time block and create button to submit/save
+
+JS - I will have to have the current day as the first function
+    I need to load any saved data to display
+    Create a function to tack the current hour and display accordingly (past present future)
+    - create instructions to display
+    
+
+
+
 # 05 Third-Party APIs: Work Day Scheduler
 
 Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
